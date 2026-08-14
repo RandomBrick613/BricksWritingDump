@@ -161,12 +161,16 @@ h3{
 
 .subtitle{
   color: #666666;
+<<<<<<< Updated upstream
   font-style: italic;
 }
 
 .article-date{
   font-size: 14px;
   color: #666666;
+=======
+  font-size: 14px;
+>>>>>>> Stashed changes
 }
 
 
@@ -237,9 +241,30 @@ ul {
 
 
 
+<<<<<<< Updated upstream
 /* ----------------------------- */
 /* ---------- Sidebar ---------- */
 /* ----------------------------- */
+=======
+/* ----- EVERYTHING RELATED TO PHOTO ALBUMS ----- */
+
+.photo-album{
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  width: 750px;
+}
+
+.photo-album img{
+  max-width: 500px;
+  max-height: 500px;
+  margin: 2px;
+  border: 1px solid white;
+}
+
+/* SIDEBAR! */
+
+>>>>>>> Stashed changes
 
 .sidebar {
   padding: 20px;
