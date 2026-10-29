@@ -27,7 +27,7 @@ header {
 }
 
 .header-content h1{
-  font-family: firacode;
+  font-family: jetbrains;
   font-size: 30px;
   color: white;
 }
@@ -37,7 +37,7 @@ header {
 
 nav {
   margin: -20px 0 -15px 0;
-  font-family: firacode;
+  font-family: jetbrains;
   font-size: 18px;
 }
 

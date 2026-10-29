@@ -3,8 +3,15 @@
 /* --------------------------- */
 
 @font-face {
-    font-family: 'firacode';
-    src: url('../fonts/FiraCode-VariableFont_wght.ttf');
+    font-family: 'jetbrains';
+    src: url('../fonts/jetbrains/JetBrainsMono-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'atkinson';
+    src: url('../fonts/AtkinsonHyperlegible-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -133,21 +140,20 @@ figcaption {
 /* ---------- Titles and subtitles ---------- */
 /* ------------------------------------------ */
 
-h1 {
+h1{
   font-size: 25px;
-  font-family: firacode;
+  font-family: jetbrains;
   line-height: 100%;
 }
 
 h2{
   margin-top: 20px;
-  font-family: firacode;
-  font-size: 20px;
+  font-family: jetbrains;
+  font-size: 22px;
 }
 
 
 h3{
-  margin-top: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
 }
@@ -156,9 +162,10 @@ h3{
   margin: 0px auto 25px auto;
   padding: 12px;
   text-align: center;
-  background-color: #9294fa;
+  background-color: rgba(0, 94, 255, 0.425);
   border-radius: 8px;
   box-shadow: 5px 5px 0 black;
+  
 }
 
 .subtitle{
@@ -226,8 +233,8 @@ ul {
   display: flex;
   margin: auto;
   margin-top: 70px;
-  padding: 10px 30px 3px 30px;
-  background-color: 	#c2dcf2;
+  padding: 10px 30px 8px 30px;
+  background-color:	#c2dcf2;
   border-radius: 15px;
   width: fit-content;
   height: fit-content;
@@ -269,7 +276,7 @@ ul {
   margin: auto;
   padding: 8px;
   text-align: center;
-  background-color: #9294fa;
+  background-color: rgba(0, 94, 255, 0.425);
   border-radius: 8px;
   box-shadow: 5px 5px 0 black;
   font-size: 18px;
